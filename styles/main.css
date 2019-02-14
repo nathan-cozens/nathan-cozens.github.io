@@ -1,0 +1,44 @@
+body{
+    background: #1a1a1d;
+}
+
+#topdisplay{
+    background: #1a1a1d;
+    padding: 2%;
+}
+
+h1{
+    color: #6f2232;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: 70px;
+}
+
+H2{
+    color: #950740;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+p, li{
+    color: #C3073f;
+    font-size: 30px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+#navbar{
+    color: #C3073f;
+    font-size: 20px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    background-color: #4e4e50;
+}
+
+#navbar-brand{
+    font-size: 30px;
+}
+
+#dropdown-item{
+    font-size: 15px
+}
+a{
+    font-size: 20px;
+    color: #C3073f;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}

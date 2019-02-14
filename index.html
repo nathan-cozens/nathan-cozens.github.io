@@ -6,13 +6,13 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styles.css"> 
+    <link rel="stylesheet" href="styles/main.css"> 
 
       <title>My blog</title>
   </head>
   <body>
      <!-- navbar -->
-     <nav class="navbar navbar-static-top navbar-expand-lg navbar-dark bg-dark">
+     <nav id="navbar" class="navbar navbar-static-top navbar-expand-lg">
       <a class="navbar-brand" href="https://nathan-cozens.github.io/index.html">Nathan Cozens</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -23,9 +23,7 @@
             <a id="home-button" class="nav-link" href="https://nathan-cozens.github.io/index.html">Home</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Blogs
-            </a>
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blogs Posts</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <a class="dropdown-item" href="blog/Sprint1/sprint1-technical.html">Sprint 1 Technical</a>
               <a class="dropdown-item" href="blog/Sprint1/sprint1-cultural.html">Sprint 1 Cultural</a>
@@ -42,15 +40,17 @@
         </ul>
       </div>
     </nav>
-
-    <div>
-      <div class=" mb-0 one jumbotron bg-light container-fluid">
-        <h1 class="display-4 text-center">Nathan Cozens</h1>
+<br>
+    <div id="topdisplay">
+      <div class="container-fluid">
+        <h1 class="text-center">Nathan Cozens</h1>
         <p class="lead text-center">Learning to become a web developer at Enspiral Dev Academy</p>
+        <br>
         <hr class="my-4">
       </div>
     </div>
-
+<br>
+<br>
  <!-- currently learning -->
   <div class="container">
     <div class="row">
