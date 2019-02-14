@@ -11,39 +11,72 @@
       <title>My blog</title>
   </head>
   <body>
-    <Div>
-      <nav class="navbar navbar-static-top navbar-expand-lg navbar-Dark bg-Dark">
-          <a class="navbar-brand" href="#">Nathan's Blog</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="https://nathan-cozens.github.io/index.html">Home <span class="sr-only">(current)</span></a>            
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Dropdown
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#">Sprint 1 Technical</a>
-                <a class="dropdown-item" href="#">Sprint 1 Cultural</a>
-                <a class="dropdown-item" href="#">Sprint 2 Technical</a>
-                <a class="dropdown-item" href="#">Sprint 2 Cultural</a>
-                <a class="dropdown-item" href="#">Sprint 3 Technical</a>
-                <a class="dropdown-item" href="#">Sprint 3 Cultural</a>
-                <a class="dropdown-item" href="#">Sprint 4 Technical</a>
-                <a class="dropdown-item" href="#">Sprint 4 Cultural</a>
-                <a class="dropdown-item" href="#">Sprint 5 Technical</a>
-                <a class="dropdown-item" href="#">Sprint 5 Cultural</a>
-                </div>
-            </ul>
-          </div>
-        </nav>
-      </Div>
-    <h1 >Kia ora Taiao! (Hello World!)</h1> 
-    <p> This is the beginning of my website home page.</p>
-    <p> It will eventually contain a list of links to all my blogs. </p>
+     <!-- navbar -->
+     <nav class="navbar navbar-static-top navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="https://nathan-cozens.github.io/index.html">Nathan Cozens</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a id="home-button" class="nav-link" href="https://nathan-cozens.github.io/index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Blogs
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="blog/Sprint1/sprint1-technical.html">Sprint 1 Technical</a>
+              <a class="dropdown-item" href="blog/Sprint1/sprint1-cultural.html">Sprint 1 Cultural</a>
+              <a class="dropdown-item" href="blog/Sprint2/sprint2-technical.html">Sprint 2 Technical</a>
+              <a class="dropdown-item" href="blog/Sprint2/sprint2-cultural.html">Sprint 2 Cultural</a>
+              <a class="dropdown-item" href="#">Sprint 3 Technical</a>
+              <a class="dropdown-item" href="#">Sprint 3 Cultural</a>
+              <a class="dropdown-item" href="#">Sprint 4 Technical</a>
+              <a class="dropdown-item" href="#">Sprint 4 Cultural</a>
+              <a class="dropdown-item" href="#">Sprint 5 Technical</a>
+              <a class="dropdown-item" href="#">Sprint 5 Cultural</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div>
+      <div class=" mb-0 one jumbotron bg-light container-fluid">
+        <h1 class="display-4 text-center">Nathan Cozens</h1>
+        <p class="lead text-center">Learning to become a web developer at Enspiral Dev Academy</p>
+        <hr class="my-4">
+      </div>
+    </div>
+
+ <!-- currently learning -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <div id="image" style="text-align: center;">            
+            <a  class="text-right" href="https://www.devacademy.co.nz"><img src="https://devacademy.co.nz/wp-content/uploads/2017/06/EDA-square-hires-180x180.png"></a></div>
+      </div>
+      <div class="col-lg-6"> <h2>Current Learning</h2>
+      <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>More to Come</li>
+      </ul>
+      </div>
+    </div>
+      
+  
+ 
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
   </body>
 </html>
