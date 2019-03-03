@@ -42,3 +42,9 @@ a{
     color: #C3073f;
     font-family: 'Arial Narrow Bold', sans-serif;
 }
+.padding {
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+  }
